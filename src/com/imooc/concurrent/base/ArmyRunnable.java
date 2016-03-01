@@ -17,7 +17,7 @@ public class ArmyRunnable implements Runnable {
 				//让出了处理器时间，下次该谁进攻还不一定呢！
 				Thread.yield();
 			}
-					
+			//睡眠阿斯顿发空间上大连开房间爱圣诞快乐		
 		}
 		
 		System.out.println(Thread.currentThread().getName()+"结束了战斗！");
